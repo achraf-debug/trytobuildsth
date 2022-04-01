@@ -7,10 +7,10 @@ compute: azureml:cpu-cluster
 jobs:
   componentA_job:
     type: component
-    component: azureml.prebuildComponent.category:Data Input and Output
+    component: azureml://Add Columns
   componentB_job:
     type: component
-    component: azureml.prebuildComponent.category:Data Input and Output
+    component: azureml://Add Columns
   componentC_job:
     type: component
-    component: azureml.prebuildComponent.category:Data Input and Output
+    component: azureml://Add Columns
