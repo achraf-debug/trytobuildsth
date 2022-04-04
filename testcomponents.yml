@@ -7,10 +7,10 @@ compute: azureml:cpu-cluster
 jobs:
   componentA_job:
     type: component
-    component: azureml://Add Columns:1
+    component: azureml://Add Columns:latest
   componentB_job:
     type: component
-    component: azureml://Add Columns:1
+    component: azureml://Add Columns:latest
   componentC_job:
     type: component
-    component: azureml://Add Columns:1
+    component: azureml://Add Columns:latest
